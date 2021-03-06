@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Express server for e-commerce app",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelzceana/e-commerce.git"
+  },
+  "author": "Kelechi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelzceana/e-commerce/issues"
+  },
+  "homepage": "https://github.com/kelzceana/e-commerce#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19"
+  }
+}
